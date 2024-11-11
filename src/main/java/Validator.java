@@ -1,5 +1,3 @@
-package org.example;
-
 public class Validator {
 
     public static boolean isPhoneNumberValid(String phoneNumber) {

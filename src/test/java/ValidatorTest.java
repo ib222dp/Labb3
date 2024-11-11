@@ -1,5 +1,3 @@
-package org.example;
-
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -19,7 +17,7 @@ class ValidatorTest {
     @Test
     @DisplayName("Phone no should start with 0")
     public void testIsPhoneNumberValidNoStartingZero() {
-        assertFalse(Validator.isPhoneNumberValid("123456"));
+        Assertions.assertFalse(Validator.isPhoneNumberValid("123456"));
     }
 
     @Test
