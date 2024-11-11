@@ -18,7 +18,7 @@ class CalculatorTest {
 
     @Test
     public void testMultiply() {
-        assertEquals(calculator.multiply(3, 2), 6);
+        assertEquals(calculator.multiply(3, 3), 6);
     }
 
     @Test
